@@ -1,0 +1,36 @@
+{
+  "name": "jts-snippets",
+  "displayName": "jts-snippets",
+  "description": "jts programming language",
+  "version": "0.0.2",
+  "publisher": "jts",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "jts",
+        "path": "./snippets/snippets.json"
+      }
+    ],
+    "languages": [{
+      "id": "jts",
+      "aliases": ["jts Programming Language", "jts"],
+      "extensions": [".jts"],
+      "configuration": "./language-configuration.json" ,
+      "icon": {
+          "light": "JabilTest.jpg",
+          "dark": "JabilTest.jpg"}
+          }],
+      "grammars": [{
+          "language": "jts",
+          "scopeName": "source.jts",
+          "path": "./syntaxes/jts.tmLanguage.json"
+      }]
+  }
+}
