@@ -2,7 +2,7 @@
   "name": "jts-snippets",
   "displayName": "jts-snippets",
   "description": "jts programming language",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "publisher": "jts",
   "engines": {
     "vscode": "^1.86.0"
@@ -16,6 +16,10 @@
       {
         "language": "jts",
         "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "jts",
+        "path": "./snippets/variables.json"
       }
     ],
     "languages": [{

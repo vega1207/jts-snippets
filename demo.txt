@@ -1,0 +1,23 @@
+Usage: 
+
+HP859XE_Close($HpInstance);
+
+Description:
+
+This is no required
+* * *
+
+Usage: 
+
+Demo_Close($HpInstance);
+
+Description:
+
+Example:
+This is required
+* * *
+
+
+
+
+
