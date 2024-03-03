@@ -1,1 +1,1 @@
-jts-snippets for Jabil Ver:7.50.00
+jts-snippets for JabilTest Ver:7.50.00
