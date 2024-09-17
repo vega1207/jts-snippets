@@ -1,47 +1,69 @@
 {
-  "name": "jts-snippets",
-  "displayName": "jts-snippets",
-  "description": "jts programming language",
-  "version": "0.0.1",
-  "publisher": "jts",
-  "engines": {
-    "vscode": "^1.86.0"
-  },
-  "repository": {
+	"name": "jts-snippets",
+	"displayName": "jts-snippets",
+	"description": "jts programming language",
+	"version": "0.0.1",
+	"publisher": "jts",
+	"engines": {
+		"vscode": "^1.86.0"
+	},
+	"readme": "README.md",
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/vega1207/jts-snippets"
 	},
 	"bugs": {
 		"url": "https://github.com/vega1207/jts-snippets/issues"
 	},
-  "categories": [
-    "Snippets"
-  ],
-  "icon": "icon.png",
-  "contributes": {
-    "snippets": [
-      {
-        "language": "jts",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "jts",
-        "path": "./snippets/variables.json"
-      }
-    ],
-    "languages": [{
-      "id": "jts",
-      "aliases": ["jts Programming Language", "jts"],
-      "extensions": [".jts"],
-      "configuration": "./language-configuration.json" ,
-      "icon": {
-          "light": "JabilTest.jpg",
-          "dark": "JabilTest.jpg"}
-          }],
-      "grammars": [{
-          "language": "jts",
-          "scopeName": "source.jts",
-          "path": "./syntaxes/jts.tmLanguage.json"
-      }]
-  }
+	"categories": [
+		"Snippets"
+	],
+	"icon": "images/icon.png",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "jts",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "jts",
+				"path": "./snippets/variables.json"
+			}
+		],
+		"languages": [
+			{
+				"id": "jts",
+				"aliases": [
+					"jts Programming Language",
+					"jts"
+				],
+				"extensions": [
+					".jts"
+				],
+				"configuration": "./language-configuration.json",
+				"icon": {
+					"light": "images/JabilTest.jpg",
+					"dark": "images/JabilTest.jpg"
+				}
+			}
+		],
+		"grammars": [
+			{
+				"language": "jts",
+				"scopeName": "source.jts",
+				"path": "./syntaxes/jts.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "b568364b-8326-4001-8877-9194071f8327",
+		"publisherId": "3e1bfa0a-c95f-4cdd-973f-fac2d9d10d41",
+		"publisherDisplayName": "jts",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1709511551503,
+		"pinned": false
+	}
 }

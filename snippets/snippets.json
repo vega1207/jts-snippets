@@ -269,7 +269,7 @@
     "description": "JTS NI_DAQmx_Read_Dig_Port_Line Request"
   },
   "JTS OperatorPrompt Request": {
-    "prefix": "OperatorPrompt",
+    "prefix": "OPT",
     "body": ["OperatorPrompt(\"pause\", \"OK\");"],
     "description": "JTS OperatorPrompt Request"
   },
